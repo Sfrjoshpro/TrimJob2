@@ -1,0 +1,89 @@
+html, body {
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: red;
+}
+
+a {
+  color: #00B7FF;
+}
+.b4{
+  background-color: rgb(14, 13, 13);
+}
+.b6{
+  background-color: rgb(14, 13, 13);
+}
+
+.b5Bottom
+{
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". .";
+}
+.Hire{
+  width: 250px;
+  
+  margin: auto;
+  
+  float: right;
+}
+.Hire:hover{
+  width: 275px;
+  float: right;
+  border-style: solid;
+  border-color: #3BB44B;
+}
+.Work{
+  
+  width: 250px;
+  float: left;
+}
+.Work:hover{
+  width: 275px;
+  float: left;
+  border-style: solid;
+  border-bottom-width: 2px;
+  border-color: #3BB44B;
+}
+.b5{
+  background-color: rgb(14, 13, 13);
+  padding-top:200px;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.25fr 0.75fr;
+  grid-template-areas: "." ".";
+}
+.Logo{
+  width: 800px;
+  padding:50px;
+  padding-bottom: 70px;
+}
+.b8{
+  float: right;
+  color: #3BB44B;
+  
+}
+.container{
+  min-width: 100%;
+  min-height: 100%;
+  align-content: center;
+  padding: 0px;
+  text-align: center;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 0.1fr 1fr 0.1fr;
+  grid-template-rows: 0.1fr 1fr 0.05fr;
+  grid-template-areas: ". . ." ". . ." ". . .";
+  border-radius: .1fr;
+
+}
